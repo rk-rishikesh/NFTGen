@@ -31,18 +31,30 @@ const Header = () => {
           </div>
         </Link>
       </div>
-      {openAccountModal && <div className="fixed right-6">
-        <div className="text-black items-center inline-flex bg-white border-2 border-black duration-200 ease-in-out focus:outline-none hover:bg-black hover:shadow-none hover:text-white justify-center rounded-[20px] shadow-[5px_5px_black] text-center transform transition w-full lg:px-2 lg:py-2 lg:text-xl px-2 py-2">
-          <button onClick={openAccountModal} type="button">
-            <Image
-              className="cursor-pointer "
-              src="/assets/icons/fvm.png"
-              width={30}
-              height={30}
-              alt="FIL-B Logo"
-            />
-          </button>
-        </div></div>}
+      {openAccountModal &&
+        <div className="fixed right-6 flex flex-row gap-8 items-center">
+          <Link href="/stats">
+            <div className="text-white font-bold">
+              DeFi
+            </div>
+          </Link>
+          <Link href="/storage">
+            <div className="text-white font-bold">
+              Storage
+            </div>
+          </Link>
+          <div className="text-black items-center inline-flex bg-white border-2 border-black duration-200 ease-in-out focus:outline-none hover:bg-black hover:shadow-none hover:text-white justify-center rounded-[20px] shadow-[5px_5px_black] text-center transform transition w-full lg:px-2 lg:py-2 lg:text-xl px-2 py-2">
+            <button onClick={openAccountModal} type="button">
+              <Image
+                className="cursor-pointer "
+                src="/assets/icons/fvm.png"
+                width={30}
+                height={30}
+                alt="FIL-B Logo"
+              />
+            </button>
+          </div>
+        </div>}
     </div>
   );
 };
