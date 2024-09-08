@@ -9,7 +9,7 @@ const Header = () => {
         <Link href="/">
           <Image
             className="cursor-pointer hidden lg:block"
-            src="/assets/logos/fil-b-logo.png"
+            src="/assets/logos/logo.png"
             width={250}
             height={250}
             alt="FIL-B Logo"
@@ -17,13 +17,7 @@ const Header = () => {
           <div
             className="lg:hidden text-black items-center inline-flex bg-white border-2 border-black duration-200 ease-in-out focus:outline-none hover:bg-black hover:shadow-none hover:text-white justify-center rounded-full shadow-[5px_5px_black] text-center transform transition w-full px-2 py-2"
           >
-            <Image
-              className="cursor-pointer "
-              src="/assets/logos/fil-b-mini-logo.png"
-              width={30}
-              height={30}
-              alt="FIL-B Logo"
-            />
+            
           </div>
         </Link>
       </div>

@@ -53,12 +53,8 @@ export default function Storage() {
                     <div className="flex flex-col items-center h-screen gap-4 pt-48">
 
                         <div className="flex flex-col items-center justify-center text-white">
-                            <h1 className="text-4xl font-bold">Data Storage on FVM</h1>
-                            <p className="text-lg">
-                                This example covers the steps to upload a file on <span className="font-semibold">Filecoin </span>{" "}
-                                via <span className="font-semibold">FVM </span>
-                                using <span className="font-semibold">Lighthouse SDK</span>.
-                            </p>
+                            <h1 className="text-4xl font-bold">Mint Your AI NFT</h1>
+                            
 
                             <div className="flex items-center justify-center w-full mt-16">
                                 <label className="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-gray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
@@ -104,7 +100,7 @@ export default function Storage() {
                                 <div className="items-center w-full justify-center grid grid-cols-1 text-center">
                                     <div>
                                         <h2 className="text-black font-bold text-lg lg:text-3xl">
-                                            View File
+                                            NFT Minted
                                         </h2>
                                     </div>
                                 </div>
