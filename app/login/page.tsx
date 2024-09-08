@@ -9,7 +9,7 @@ import EthereumRPC from "./ethereumRPC";
 import Header from '../components/header';
 import SignClient from "./signClient";
 
-const clientId = "BPi5PB_UiIZ-cPz1GtV5i1I2iOSOHuimiXBI0e-Oe_u6X3oVAbCiAZOTEBtTXw4tsluTITPqA8zMsfxIKMjiqNQ";
+const clientId = "BHEzgfq5vuOIqSumaSypIN04Iy-UXwR0VzL4jDSsCZXmSxXCYO5SRjV_dncJnZPmsB7b0DS8tzre76rzqWM6Le0";
 
 const chainConfig = {
   chainNamespace: CHAIN_NAMESPACES.EIP155,
