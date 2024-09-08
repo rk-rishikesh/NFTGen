@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 // Websit Config
 export const metadata: Metadata = {
-  title: "FVM Frontend Starter Kit",
-  description: "Made with love by Team FIL-B",
+  title: "NFTGen",
+  description: "Crafted with Creativity,Powered by Innovation",
 };
 
 export default function RootLayout({
